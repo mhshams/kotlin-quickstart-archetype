@@ -18,6 +18,6 @@ mvn install
 After building and installing the arechetype in your local repository, you can run maven archetype plugin to build your maven-based kotlin project:
 
 ```
- mvn archetype:generate -DarchetypeGroupId=kotlin-archetype-quickstart -DarchetypeArtifactId=kotlin-archetype-quickstart -DarchetypeVersion=1.0-SNAPSHOT^C
+ mvn archetype:generate -DarchetypeGroupId=kotlin-archetype-quickstart -DarchetypeArtifactId=kotlin-archetype-quickstart -DarchetypeVersion=1.0-SNAPSHOT
 
 ```
