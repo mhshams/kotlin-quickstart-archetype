@@ -1,4 +1,4 @@
 kotlin-archetype-quickstart
 ===========================
 
-A Maven Archetype to setup Kotlin Applications with Maven.
+A Maven Archetype to Setup Kotlin Applications With Maven.
