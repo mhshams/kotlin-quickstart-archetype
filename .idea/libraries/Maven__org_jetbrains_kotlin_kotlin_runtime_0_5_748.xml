@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jetbrains.kotlin:kotlin-runtime:0.5.748">
+    <CLASSES>
+      <root url="jar:///opt/m3-repo/org/jetbrains/kotlin/kotlin-runtime/0.5.748/kotlin-runtime-0.5.748.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///opt/m3-repo/org/jetbrains/kotlin/kotlin-runtime/0.5.748/kotlin-runtime-0.5.748-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///opt/m3-repo/org/jetbrains/kotlin/kotlin-runtime/0.5.748/kotlin-runtime-0.5.748-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
