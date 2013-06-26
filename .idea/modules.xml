@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/kotlin-archetype-quickstart.iml" filepath="$PROJECT_DIR$/kotlin-archetype-quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kotlin-quickstart-archetype.iml" filepath="$PROJECT_DIR$/kotlin-quickstart-archetype.iml" />
     </modules>
   </component>
 </project>

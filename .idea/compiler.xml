@@ -27,11 +27,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="kotlin-archetype-quickstart" />
+        <module name="kotlin-quickstart-archetype" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="kotlin-archetype-quickstart" target="1.7" />
+      <module name="kotlin-quickstart-archetype" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
