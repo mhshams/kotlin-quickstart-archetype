@@ -2,13 +2,40 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
     <groupId>com.github.mhshams</groupId>
     <artifactId>kotlin-quickstart-archetype</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Kotlin Quick Start Archetype</name>
+    <description>Kotlin Quick Start Archetype</description>
     <url>https://github.com/mhshams/kotlin-quickstart-archetype</url>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:git://github.com/mhshams/kotlin-quickstart-archetype.git</connection>
+        <developerConnection>scm:git:git://github.com/mhshams/kotlin-quickstart-archetype.git</developerConnection>
+        <url>github.com/mhshams/kotlin-quickstart-archetype.git</url>
+    </scm>
+    <developers>
+        <developer>
+            <id>mhshams</id>
+            <name>Mohammad Shamsi</name>
+            <email>m.h.shams@gmail.com</email>
+        </developer>
+    </developers>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
