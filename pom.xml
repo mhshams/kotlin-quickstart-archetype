@@ -24,9 +24,9 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git://github.com/mhshams/kotlin-quickstart-archetype.git</connection>
-        <developerConnection>scm:git:git://github.com/mhshams/kotlin-quickstart-archetype.git</developerConnection>
-        <url>github.com/mhshams/kotlin-quickstart-archetype.git</url>
+        <connection>scm:git:git@github.com:mhshams/kotlin-quickstart-archetype.git</connection>
+        <developerConnection>scm:git:git@github.com:mhshams/kotlin-quickstart-archetype.git</developerConnection>
+        <url>git@github.com:mhshams/kotlin-quickstart-archetype.git</url>
     </scm>
     <developers>
         <developer>
