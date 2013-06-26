@@ -9,7 +9,7 @@
 
     <groupId>com.github.mhshams</groupId>
     <artifactId>kotlin-quickstart-archetype</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>Kotlin Quick Start Archetype</name>
