@@ -17,9 +17,11 @@ Example:
 
 ```
 
+For more information about maven archetype plugin, [check this page](http://maven.apache.org/archetype/maven-archetype-plugin/).
+
 ### Clone And Build
 
-You can clone the archetype source code and build it in your local machine:
+You can also clone the archetype source code and build it in your local machine:
 
 ```
 git clone https://github.com/mhshams/kotlin-quickstart-archetype.git
