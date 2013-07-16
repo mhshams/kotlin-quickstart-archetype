@@ -2,9 +2,26 @@
 
 A Maven Archetype to Setup Kotlin Applications With Maven.
 
-## Usage
+### Archetype Info
+- groupId         : **com.github.mhshams**
+- artefactId      : **kotlin-quickstart-archetype**
+- (latest) version: **0.0.1**
 
-Since the archetype is not available in any online repository yet, you need to check out the source code and build it first.
+### Usage
+
+Quick Start Archetype is avaialble in [The Central Repository](http://search.maven.org/#browse), so you just need to execute maven `archetype:generate` in command line or your favorite IDE.
+
+Example:
+```
+ mvn archetype:generate -DarchetypeGroupId=com.github.mhshams -DarchetypeArtifactId=kotlin-quickstart-archetype -DarchetypeVersion=0.0.1
+
+```
+
+For more information about maven archetype plugin, [check this page](http://maven.apache.org/archetype/maven-archetype-plugin/).
+
+### Clone And Build
+
+You can also clone the archetype source code and build it in your local machine:
 
 ```
 git clone https://github.com/mhshams/kotlin-quickstart-archetype.git
@@ -15,9 +32,3 @@ mvn install
 
 ```
 
-After building and installing the archetype in your local repository, you can run maven archetype plugin to build your maven-based kotlin project:
-
-```
- mvn archetype:generate -DarchetypeGroupId=com.github.mhshams -DarchetypeArtifactId=kotlin-quickstart-archetype -DarchetypeVersion=1.0-SNAPSHOT
-
-```
