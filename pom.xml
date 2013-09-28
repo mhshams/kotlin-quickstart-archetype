@@ -9,7 +9,7 @@
 
     <groupId>com.github.mhshams</groupId>
     <artifactId>kotlin-quickstart-archetype</artifactId>
-    <version>0.0.6</version>
+    <version>0.0.9-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Kotlin Quick Start Archetype</name>
@@ -38,7 +38,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <kotlin.version>0.6.350</kotlin.version>
+        <kotlin.version>0.7.258</kotlin.version>
     </properties>
 
     <dependencies>

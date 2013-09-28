@@ -20,7 +20,7 @@
     </fileSets>
     <requiredProperties>
         <requiredProperty key="kotlinVersion">
-            <defaultValue>0.6.350</defaultValue>
+            <defaultValue>0.7.258</defaultValue>
         </requiredProperty>
     </requiredProperties>
 </archetype-descriptor>
