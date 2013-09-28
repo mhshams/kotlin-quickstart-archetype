@@ -18,4 +18,9 @@
             </includes>
         </fileSet>
     </fileSets>
+    <requiredProperties>
+        <requiredProperty key="kotlinVersion">
+            <defaultValue>0.6.350</defaultValue>
+        </requiredProperty>
+    </requiredProperties>
 </archetype-descriptor>
