@@ -5,7 +5,7 @@ A Maven Archetype to Setup Kotlin Applications With Maven.
 ### Archetype Info
 - groupId         : **com.github.mhshams**
 - artefactId      : **kotlin-quickstart-archetype**
-- (latest) version: **0.0.6**
+- (latest) version: **0.0.9**
 
 ### Usage
 
@@ -13,7 +13,7 @@ Quick Start Archetype is avaialble in [The Central Repository](http://search.mav
 
 Example:
 ```
- mvn archetype:generate -DarchetypeGroupId=com.github.mhshams -DarchetypeArtifactId=kotlin-quickstart-archetype -DarchetypeVersion=0.0.6
+ mvn archetype:generate -DarchetypeGroupId=com.github.mhshams -DarchetypeArtifactId=kotlin-quickstart-archetype -DarchetypeVersion=0.0.9
 
 ```
 
@@ -21,7 +21,7 @@ You can set parameter **kotlinVersion** to override default kotlin version.
 
 Example:
 ```
- mvn archetype:generate -DarchetypeGroupId=com.github.mhshams -DarchetypeArtifactId=kotlin-quickstart-archetype -DarchetypeVersion=0.0.6 -DkotlinVersion=0.6.350
+ mvn archetype:generate -DarchetypeGroupId=com.github.mhshams -DarchetypeArtifactId=kotlin-quickstart-archetype -DarchetypeVersion=0.0.9 -DkotlinVersion=0.7.258
 
 ```
 
