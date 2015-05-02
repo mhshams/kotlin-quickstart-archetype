@@ -6,7 +6,7 @@ A Maven Archetype to Setup Kotlin Applications With Maven.
 ### Archetype Info
 - groupId         : **com.github.mhshams**
 - artefactId      : **kotlin-quickstart-archetype**
-- (latest) version: **0.0.10**
+- (latest) version: **0.0.9**
 [![Build Status](https://travis-ci.org/mhshams/kotlin-quickstart-archetype.svg?branch=master)](https://travis-ci.org/mhshams/kotlin-quickstart-archetype)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.mhshams/kotlin-quickstart-archetype/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.mhshams/kotlin-quickstart-archetype)
 
