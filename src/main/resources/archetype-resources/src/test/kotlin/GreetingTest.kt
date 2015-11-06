@@ -1,6 +1,6 @@
 package ${package}
 
-import org.junit.Test as test
+import org.junit.Test
 import kotlin.test.assertEquals
 
 /**
@@ -13,7 +13,8 @@ class GreetingTest {
      * When we call "sayHai" with user name.
      * Then it should return "Hello Kotlin!"
      */
-    test fun sayHiWithParameter() {
+    @Test
+    fun sayHiWithParameter() {
         assertEquals("Hello Kotlin!", sayHi("Kotlin"))
     }
 
@@ -22,7 +23,8 @@ class GreetingTest {
      * When we call "sayHai" without any parameter.
      * Then it should return "Hello World!"
      */
-    test fun sayHiWithoutParameter() {
+    @Test
+    fun sayHiWithoutParameter() {
         assertEquals("Hello World!", sayHi())
     }
 }
