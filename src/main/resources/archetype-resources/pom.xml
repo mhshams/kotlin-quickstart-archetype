@@ -1,5 +1,7 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>${groupId}</groupId>
@@ -13,6 +15,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kotlin.version>${kotlinVersion}</kotlin.version>
+        <junit.version>4.11</junit.version>
     </properties>
 
     <dependencies>
@@ -24,7 +27,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -34,16 +37,8 @@
         <testSourceDirectory>src/test/kotlin</testSourceDirectory>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
-                </configuration>
-            </plugin>
-            <plugin>
-                <artifactId>kotlin-maven-plugin</artifactId>
                 <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-maven-plugin</artifactId>
                 <version>${kotlin.version}</version>
                 <executions>
                     <execution>
@@ -65,19 +60,4 @@
         </plugins>
     </build>
 
-    <!-- If you want to access to Jetbrains repository and Kotlin snapshots builds, enable below repositories -->
-    <!--
-        <repositories>
-            <repository>
-                <id>jetbrains-all</id>
-                <url>http://repository.jetbrains.com/all</url>
-            </repository>
-        </repositories>
-        <pluginRepositories>
-            <pluginRepository>
-                <id>jetbrains-all</id>
-                <url>http://repository.jetbrains.com/all</url>
-            </pluginRepository>
-        </pluginRepositories>
-        -->
 </project>
