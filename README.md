@@ -1,7 +1,7 @@
 # kotlin-quickstart-archetype
 
 A Maven Archetype to Setup Kotlin Applications With Maven.
-[![License](https://pypip.in/license/apache-libcloud/badge.png)]()
+[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
  
 ### Archetype Info
 - groupId         : **com.github.mhshams**
@@ -16,7 +16,10 @@ Quick Start Archetype is available in [The Central Repository](http://search.mav
 
 Example:
 ```bash
- mvn archetype:generate -DarchetypeGroupId=com.github.mhshams -DarchetypeArtifactId=kotlin-quickstart-archetype -DarchetypeVersion=0.0.11
+ mvn archetype:generate \
+    -DarchetypeGroupId=com.github.mhshams \
+    -DarchetypeArtifactId=kotlin-quickstart-archetype \
+    -DarchetypeVersion=0.0.11
  
 ```
 
@@ -24,7 +27,11 @@ You can set parameter **kotlinVersion** to override default kotlin version.
 
 Example:
 ```bash
- $ mvn archetype:generate -DarchetypeGroupId=com.github.mhshams -DarchetypeArtifactId=kotlin-quickstart-archetype -DarchetypeVersion=0.0.11 -DkotlinVersion=0.11.91.4
+ $ mvn archetype:generate \
+    -DarchetypeGroupId=com.github.mhshams \
+    -DarchetypeArtifactId=kotlin-quickstart-archetype \
+    -DarchetypeVersion=0.0.11 \
+    -DkotlinVersion=1.0.0-beta-1103
 
 ```
 
