@@ -1,4 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -9,7 +10,7 @@
 
     <groupId>com.github.mhshams</groupId>
     <artifactId>kotlin-quickstart-archetype</artifactId>
-    <version>0.0.11</version>
+    <version>0.1.0</version>
     <packaging>jar</packaging>
 
     <name>Kotlin Quick Start Archetype</name>
@@ -44,7 +45,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <kotlin.version>0.11.91.4</kotlin.version>
+        <kotlin.version>1.0.0-beta-1103</kotlin.version>
+        <junit.version>4.11</junit.version>
     </properties>
 
     <dependencies>
@@ -56,7 +58,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -149,7 +151,7 @@
                     <plugin>
                         <groupId>external.atlassian.jgitflow</groupId>
                         <artifactId>jgitflow-maven-plugin</artifactId>
-                        <version>1.0-m4.3</version>
+                        <version>1.0-m5.1</version>
                     </plugin>
                 </plugins>
             </build>
