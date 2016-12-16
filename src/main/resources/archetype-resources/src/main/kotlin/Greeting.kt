@@ -7,4 +7,4 @@ package ${package}
  * @return greeting string to given user
  *
  */
-public fun sayHi(name: String = "World"): String = "Hello $name!"
+fun sayHi(name: String = "World"): String = "Hello $name!"
