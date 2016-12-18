@@ -6,8 +6,8 @@ A Maven Archetype to Setup Kotlin Applications With Maven.
 ### Archetype Info
 - groupId         : **com.github.mhshams**
 - artifactId      : **kotlin-quickstart-archetype**
-- (latest) version: **0.2.0**
-[![Build Status](https://travis-ci.org/mhshams/kotlin-quickstart-archetype.svg?branch=master)](https://travis-ci.org/mhshams/kotlin-quickstart-archetype)
+- (latest) version: **0.2.1**
+[![Build Status](https://travis-ci.org/kareez/kotlin-quickstart-archetype.svg?branch=master)](https://travis-ci.org/kareez/kotlin-quickstart-archetype)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.mhshams/kotlin-quickstart-archetype/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.mhshams/kotlin-quickstart-archetype)
 
 ### Usage
@@ -19,7 +19,7 @@ Example:
  mvn archetype:generate \
     -DarchetypeGroupId=com.github.mhshams \
     -DarchetypeArtifactId=kotlin-quickstart-archetype \
-    -DarchetypeVersion=0.2.0
+    -DarchetypeVersion=0.2.1
  
 ```
 
@@ -30,7 +30,7 @@ Example:
  $ mvn archetype:generate \
     -DarchetypeGroupId=com.github.mhshams \
     -DarchetypeArtifactId=kotlin-quickstart-archetype \
-    -DarchetypeVersion=0.2.0 \
+    -DarchetypeVersion=0.2.1 \
     -DkotlinVersion=1.0.5-2
 
 ```
@@ -42,7 +42,7 @@ For more information about maven archetype plugin, [check this page](http://mave
 You can also clone the archetype source code and build it in your local machine:
 
 ```bash
-$ git clone https://github.com/mhshams/kotlin-quickstart-archetype.git
+$ git clone https://github.com/kareez/kotlin-quickstart-archetype.git
 $ cd kotlin-quickstart-archetype
 $ mvn install
 

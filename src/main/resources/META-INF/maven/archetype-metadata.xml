@@ -20,7 +20,7 @@
     </fileSets>
     <requiredProperties>
         <requiredProperty key="kotlinVersion">
-            <defaultValue>1.0.0-beta-1103</defaultValue>
+            <defaultValue>1.0.5-2</defaultValue>
         </requiredProperty>
     </requiredProperties>
 </archetype-descriptor>
